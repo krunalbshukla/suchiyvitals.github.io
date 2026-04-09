@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suchiy Vitals Private Limited – Live Well. Simply.</title>
+  <meta name="description" content="Suchiy Vitals Private Limited — Quality food, pet food, health supplements and consumer products. Clean, sustainable and honestly priced." />
+  <meta name="keywords" content="Suchiy Vitals, health supplements, pet food, organic food, consumer products, sustainable, Ahmedabad" />
+  <link rel="canonical" href="https://suchiyvitals.com" />
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://suchiyvitals.com" />
+  <meta property="og:title" content="Suchiy Vitals Private Limited – Live Well. Simply." />
+  <meta property="og:description" content="Clean, sustainable and honestly priced food, pet nutrition, health supplements and consumer products. Built on transparency and care." />
+  <meta property="og:image" content="https://suchiyvitals.com/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:site_name" content="Suchiy Vitals Private Limited" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Suchiy Vitals – Live Well. Simply." />
+  <meta name="twitter:description" content="Clean, sustainable and honestly priced consumer products. Food, pet nutrition, health supplements." />
+  <meta name="twitter:image" content="https://suchiyvitals.com/og-image.jpg" />
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Suchiy Vitals Private Limited",
+    "alternateName": "Suchiy Vitals",
+    "url": "https://suchiyvitals.com",
+    "logo": "https://suchiyvitals.com/logo.svg",
+    "description": "Clean, sustainable and honestly priced food, pet nutrition, health supplements and consumer products.",
+    "foundingDate": "2025",
+    "foundingLocation": "Ahmedabad, Gujarat, India",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ahmedabad",
+      "addressRegion": "Gujarat",
+      "postalCode": "380058",
+      "addressCountry": "IN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "contactus@suchiyvitals.com"
+    },
+    "sameAs": ["https://suchiyvitals.com"],
+    "slogan": "Live Well. Simply."
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --forest:      #1c2e1a;
+      --forest-mid:  #3a6642;
+      --forest-lite: #5a9668;
+      --saffron:     #d4841c;
+      --saffron-lt:  #e8a84a;
+      --saffron-pale:#e8c87a;
+      --ivory:       #f8f2de;
+      --ivory-dark:  #ede4c8;
+      --ivory-deep:  #dfd3aa;
+      --white:       #fdfaf2;
+      --text-dark:   #181e17;
+      --text-mid:    #3a4e38;
+      --text-soft:   #7a9470;
+      --serif:'Cormorant Garamond',Georgia,serif;
+      --sans:'Jost',sans-serif;
+      --nav-h:72px;
+      --pad:clamp(24px,7vw,110px);
+      --spy:clamp(80px,11vw,150px);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--sans);background:var(--white);color:var(--text-dark);overflow-x:hidden}
+    a{text-decoration:none;color:inherit}
+    ul{list-style:none}
+    body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");opacity:.025;pointer-events:none;z-index:9000}
+
+    nav{position:fixed;top:0;left:0;right:0;height:var(--nav-h);display:flex;align-items:center;justify-content:space-between;padding:0 var(--pad);background:rgba(28,46,26,0.97);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(212,132,28,0.18);z-index:1000}
+    .nav-brand{display:flex;align-items:center;gap:13px}
+    .nav-text{display:flex;flex-direction:column;gap:1px}
+    .nav-name{font-family:var(--serif);font-size:1.18rem;font-weight:600;letter-spacing:.06em;color:var(--ivory);line-height:1}
+    .nav-sub{font-size:.55rem;letter-spacing:.28em;text-transform:uppercase;color:var(--saffron-lt);margin-top:3px}
+    .nav-links{display:flex;gap:30px;align-items:center}
+    .nav-links a{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(248,242,222,.6);transition:color .2s}
+    .nav-links a:hover{color:var(--saffron-lt)}
+    .nav-cta{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;border:1px solid rgba(212,132,28,.5);color:var(--saffron)!important;padding:8px 22px;border-radius:1px;transition:all .25s}
+    .nav-cta:hover{background:var(--saffron)!important;color:var(--forest)!important;border-color:var(--saffron)}
+    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}
+    .hamburger span{display:block;width:22px;height:1.5px;background:var(--ivory);transition:.3s}
+    .hamburger.open span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+    .hamburger.open span:nth-child(2){opacity:0}
+    .hamburger.open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+    .mobile-menu{display:none;position:fixed;top:var(--nav-h);left:0;right:0;background:var(--forest);flex-direction:column;border-bottom:1px solid rgba(212,132,28,.2);z-index:999}
+    .mobile-menu.open{display:flex}
+    .mobile-menu a{font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(248,242,222,.75);padding:18px var(--pad);border-bottom:1px solid rgba(255,255,255,.05);transition:color .2s}
+    .mobile-menu a:hover{color:var(--saffron-lt)}
+
+    #home{min-height:100svh;background:var(--forest);display:flex;flex-direction:column;justify-content:center;padding:calc(var(--nav-h) + 64px) var(--pad) 80px;position:relative;overflow:hidden}
+    .ring{position:absolute;border-radius:50%;border:1px solid rgba(212,132,28,.09);pointer-events:none}
+    .r1{width:480px;height:480px;top:-160px;right:-80px}
+    .r2{width:780px;height:780px;top:-320px;right:-240px}
+    .r3{width:1100px;height:1100px;top:-480px;right:-400px}
+    .hero-accent{position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--saffron);opacity:.55}
+    .hero-lotus-bg{position:absolute;bottom:0;right:clamp(20px,6vw,80px);width:clamp(200px,28vw,420px);opacity:.055;pointer-events:none}
+    .hero-inner{position:relative;z-index:2;max-width:780px}
+    .eyebrow{font-size:.64rem;letter-spacing:.36em;text-transform:uppercase;color:var(--saffron);display:flex;align-items:center;gap:14px;margin-bottom:28px}
+    .eyebrow::before{content:'';width:32px;height:1px;background:var(--saffron)}
+    h1{font-family:var(--serif);font-size:clamp(2.8rem,7.2vw,6rem);font-weight:300;line-height:1.07;color:var(--ivory);margin-bottom:28px}
+    h1 em{font-style:italic;color:var(--saffron-lt)}
+    .tpill{display:inline-flex;align-items:center;gap:10px;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--saffron);border:1px solid rgba(212,132,28,.4);background:rgba(212,132,28,.08);padding:7px 18px;border-radius:100px;margin-bottom:36px}
+    .hero-desc{font-size:clamp(.87rem,1.4vw,1.01rem);font-weight:300;line-height:1.9;color:rgba(248,242,222,.58);max-width:520px;margin-bottom:50px}
+    .hero-btns{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+    .btn-s{font-size:.73rem;letter-spacing:.2em;text-transform:uppercase;font-weight:500;background:var(--saffron);color:var(--forest);padding:15px 38px;border-radius:1px;display:inline-block;transition:background .25s,transform .2s}
+    .btn-s:hover{background:var(--saffron-lt);transform:translateY(-2px)}
+    .btn-g{font-size:.73rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(248,242,222,.55);display:inline-flex;align-items:center;gap:8px;transition:color .2s}
+    .btn-g:hover{color:var(--ivory)}
+    .btn-g svg{transition:transform .2s}
+    .btn-g:hover svg{transform:translateX(4px)}
+    .scroll-hint{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;color:rgba(248,242,222,.25);font-size:.58rem;letter-spacing:.3em;text-transform:uppercase}
+    .sline{width:1px;height:44px;background:linear-gradient(to bottom,rgba(212,132,28,.6),transparent);animation:pulse 2.2s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+
+    section{padding:var(--spy) var(--pad)}
+    .s-eye{font-size:.65rem;letter-spacing:.32em;text-transform:uppercase;color:var(--saffron);display:flex;align-items:center;gap:12px;margin-bottom:18px}
+    .s-eye::before{content:'';width:26px;height:1px;background:var(--saffron)}
+    .s-eye.center{justify-content:center}
+    .s-eye.center::before,.s-eye.center::after{content:'';width:26px;height:1px;background:var(--saffron)}
+    h2{font-family:var(--serif);font-size:clamp(2.1rem,4vw,3.3rem);font-weight:300;line-height:1.16;color:var(--text-dark);margin-bottom:22px}
+    h2 em{font-style:italic;color:var(--forest-mid)}
+    .h2l{color:var(--ivory)}
+    .h2l em{color:var(--saffron-lt)}
+    .bp{font-size:.94rem;font-weight:300;line-height:1.88;color:var(--text-mid);margin-bottom:18px}
+
+    #about{background:var(--ivory)}
+    .ag{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,100px);align-items:start}
+    .ldiv{display:flex;align-items:center;gap:16px;margin:24px 0 8px}
+    .ldiv::before,.ldiv::after{content:'';flex:1;height:1px;background:var(--ivory-deep)}
+    .vals{display:flex;flex-direction:column;gap:14px}
+    .vi{display:flex;align-items:flex-start;gap:16px;padding:18px 20px;background:var(--white);border-left:2px solid var(--saffron);border-radius:0 4px 4px 0;transition:border-color .2s,box-shadow .2s}
+    .vi:hover{border-color:var(--forest-mid);box-shadow:0 4px 20px rgba(28,46,26,.07)}
+    .vi-ico{width:34px;height:34px;flex-shrink:0;background:var(--forest);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.85rem}
+    .vi-txt h4{font-size:.8rem;letter-spacing:.1em;font-weight:500;color:var(--text-dark);margin-bottom:4px}
+    .vi-txt p{font-size:.8rem;font-weight:300;line-height:1.6;color:var(--text-mid)}
+
+    #products{background:var(--white)}
+    .ph{text-align:center;margin-bottom:clamp(36px,5vw,70px)}
+    .ph p{font-size:.92rem;font-weight:300;line-height:1.8;color:var(--text-mid);max-width:520px;margin:0 auto}
+    .pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+    .pc{background:var(--ivory);border:1px solid var(--ivory-dark);border-radius:4px;overflow:hidden;transition:transform .3s,box-shadow .3s}
+    .pc:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(28,46,26,.12)}
+    .pt{height:166px;display:flex;align-items:center;justify-content:center;font-size:3rem;position:relative;overflow:hidden}
+    .ptbg{position:absolute;inset:0;background:var(--forest);opacity:0;transition:opacity .35s}
+    .pc:hover .ptbg{opacity:1}
+    .pe{position:relative;z-index:1;transition:transform .3s}
+    .pc:hover .pe{transform:scale(1.1)}
+    .pb{padding:20px}
+    .pb h3{font-family:var(--serif);font-size:1.28rem;font-weight:400;color:var(--text-dark);margin-bottom:9px}
+    .pb p{font-size:.8rem;font-weight:300;line-height:1.7;color:var(--text-mid);margin-bottom:14px}
+    .ptag{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--forest-mid);font-weight:500;display:inline-flex;align-items:center;gap:6px}
+    .ptag::before{content:'';width:14px;height:1px;background:var(--forest-mid)}
+
+    #commitment{background:var(--forest);position:relative;overflow:hidden}
+    .cr{position:absolute;border-radius:50%;border:1px solid rgba(212,132,28,.08);pointer-events:none}
+    .cr1{width:600px;height:600px;bottom:-260px;left:-200px}
+    .cr2{width:900px;height:900px;bottom:-420px;left:-360px}
+    .srule{width:48px;height:2px;background:var(--saffron);margin:0 auto 48px;border-radius:1px}
+    .cin{position:relative;z-index:2}
+    .ch{text-align:center;margin-bottom:clamp(36px,5vw,70px)}
+    .cgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:2px}
+    .ci{padding:36px 28px;background:rgba(255,255,255,.03);border:1px solid rgba(212,132,28,.1);text-align:center;transition:background .3s}
+    .ci:hover{background:rgba(212,132,28,.05)}
+    .cin2{font-family:var(--serif);font-size:3rem;font-weight:300;color:rgba(212,132,28,.2);line-height:1;margin-bottom:14px}
+    .ci h4{font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:var(--saffron-lt);margin-bottom:12px}
+    .ci p{font-size:.79rem;font-weight:300;line-height:1.7;color:rgba(248,242,222,.46)}
+
+    #serve{background:var(--ivory-dark)}
+    .sg{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,80px);align-items:center}
+    .scl{display:flex;flex-direction:column;gap:14px}
+    .sc{background:var(--white);padding:24px 26px;border-radius:4px;display:flex;align-items:center;gap:20px;border:1px solid rgba(212,132,28,.15);transition:border-color .25s,box-shadow .25s}
+    .sc:hover{border-color:rgba(212,132,28,.5);box-shadow:0 8px 28px rgba(28,46,26,.08)}
+    .sc-ico{font-size:1.8rem;flex-shrink:0}
+    .sc h4{font-size:.85rem;font-weight:600;color:var(--text-dark);margin-bottom:4px}
+    .sc p{font-size:.78rem;font-weight:300;line-height:1.6;color:var(--text-mid)}
+
+    #contact{background:var(--white);text-align:center}
+    #contact h2{margin-bottom:14px}
+    #contact .bp{max-width:460px;margin:0 auto 40px}
+    .cbox{display:inline-flex;flex-direction:column;align-items:center;gap:20px;background:var(--ivory);border:1px solid var(--ivory-dark);padding:44px 56px;border-radius:4px;max-width:460px;width:100%;position:relative;overflow:hidden}
+    .cbox::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--saffron)}
+    .clbl{font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;color:var(--text-soft)}
+    .ceml{font-family:var(--serif);font-size:1.38rem;font-weight:400;color:var(--forest);border-bottom:1px solid var(--saffron);padding-bottom:4px;transition:color .2s}
+    .ceml:hover{color:var(--forest-mid)}
+
+    footer{background:var(--forest);padding:36px var(--pad);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;border-top:1px solid rgba(212,132,28,.14)}
+    .fbw{display:flex;align-items:center;gap:12px}
+    .fb{font-family:var(--serif);font-size:1.06rem;font-weight:400;color:var(--ivory);letter-spacing:.04em}
+    .fl{font-size:.63rem;letter-spacing:.08em;color:rgba(248,242,222,.3);text-align:right;line-height:1.9}
+
+    .fi{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+    .fi.v{opacity:1;transform:none}
+    .d1{transition-delay:.1s}.d2{transition-delay:.22s}.d3{transition-delay:.34s}.d4{transition-delay:.46s}
+
+    @media(max-width:860px){.nav-links{display:none}.hamburger{display:flex}.ag,.sg{grid-template-columns:1fr}}
+    @media(max-width:560px){.cbox{padding:32px 22px}.cgrid{grid-template-columns:1fr}footer{flex-direction:column;align-items:flex-start}.fl{text-align:left}h1{font-size:2.7rem}}
+
+    /* ── WAITLIST FORM ───────────────────────────────────────── */
+    .waitlist{margin-top:8px;display:flex;gap:0;max-width:420px;flex-wrap:wrap;gap:8px}
+    .waitlist input{flex:1;min-width:200px;font-family:var(--sans);font-size:.78rem;padding:13px 18px;background:rgba(248,242,222,.1);border:1px solid rgba(212,132,28,.35);border-radius:1px;color:var(--ivory);outline:none;transition:border-color .2s}
+    .waitlist input::placeholder{color:rgba(248,242,222,.35)}
+    .waitlist input:focus{border-color:var(--saffron)}
+    .waitlist button{font-family:var(--sans);font-size:.73rem;letter-spacing:.18em;text-transform:uppercase;font-weight:500;background:var(--saffron);color:var(--forest);padding:13px 26px;border:none;border-radius:1px;cursor:pointer;transition:background .2s,transform .2s;white-space:nowrap}
+    .waitlist button:hover{background:var(--saffron-lt);transform:translateY(-1px)}
+    .wl-note{font-size:.68rem;color:rgba(248,242,222,.35);margin-top:10px;letter-spacing:.04em}
+    .wl-success{display:none;font-size:.82rem;color:var(--saffron-lt);margin-top:12px;padding:10px 16px;border:1px solid rgba(212,132,28,.3);border-radius:2px;background:rgba(212,132,28,.08)}
+
+    /* ── COMING SOON CARDS ───────────────────────────────────── */
+    .pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+    .pc{background:var(--ivory);border:1px solid var(--ivory-dark);border-radius:4px;overflow:hidden;transition:transform .3s,box-shadow .3s}
+    .pc:hover{transform:translateY(-5px);box-shadow:0 18px 44px rgba(28,46,26,.1)}
+    .pt{height:180px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+    .pt svg{position:relative;z-index:1;transition:transform .4s}
+    .pc:hover .pt svg{transform:scale(1.06)}
+    .pt-overlay{position:absolute;inset:0;opacity:0;transition:opacity .35s;display:flex;align-items:center;justify-content:center}
+    .pc:hover .pt-overlay{opacity:1}
+    .pt-overlay span{font-size:.62rem;letter-spacing:.28em;text-transform:uppercase;font-weight:500;padding:6px 16px;border:1px solid rgba(248,242,222,.5);border-radius:100px;color:rgba(248,242,222,.9)}
+    .pb{padding:20px}
+    .pb h3{font-family:var(--serif);font-size:1.28rem;font-weight:400;color:var(--text-dark);margin-bottom:9px}
+    .pb p{font-size:.8rem;font-weight:300;line-height:1.7;color:var(--text-mid);margin-bottom:14px}
+    .ptag{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;font-weight:500;display:inline-flex;align-items:center;gap:6px}
+    .ptag::before{content:'';width:14px;height:1px}
+    .ptag.amber{color:#b8701a}.ptag.amber::before{background:#b8701a}
+    .ptag.green{color:#2e6640}.ptag.green::before{background:#2e6640}
+    .ptag.teal{color:#1a6060}.ptag.teal::before{background:#1a6060}
+    .ptag.slate{color:#445060}.ptag.slate::before{background:#445060}
+    .cs-badge{display:inline-flex;align-items:center;gap:6px;font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;color:var(--saffron);border:1px solid rgba(212,132,28,.3);padding:3px 10px;border-radius:100px;margin-bottom:10px}
+    .cs-dot{width:5px;height:5px;border-radius:50%;background:var(--saffron);animation:blink 1.8s ease-in-out infinite}
+    @keyframes blink{0%,100%{opacity:.3}50%{opacity:1}}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand">
+    <svg width="42" height="50" viewBox="0 0 90 110" fill="none" aria-label="Suchiy Vitals SV signature mark">
+      <path d="M54,18 C50,8 28,6 20,20 C14,30 22,42 36,47 C48,52 58,64 52,76 C46,88 28,88 18,78" stroke="#e8a84a" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+      <path d="M18,78 C22,84 36,82 46,70 C48,66 44,44 42,20 C52,48 57,68 60,82 C66,68 74,40 84,14" stroke="#d4841c" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+    </svg>
+    <div class="nav-text">
+      <span class="nav-name">Suchiy Vitals</span>
+      <span class="nav-sub">Private Limited</span>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#commitment">Our Values</a></li>
+    <li><a href="#serve">Who We Serve</a></li>
+    <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+  </ul>
+  <button class="hamburger" id="ham" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mobile-menu" id="mob">
+  <a href="#about" onclick="cm()">About</a>
+  <a href="#commitment" onclick="cm()">Our Values</a>
+  <a href="#serve" onclick="cm()">Who We Serve</a>
+  <a href="#contact" onclick="cm()">Contact Us</a>
+</div>
+
+<section id="home">
+  <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
+  <div class="hero-accent"></div>
+  <svg class="hero-lotus-bg" viewBox="0 0 90 110" fill="none" aria-hidden="true">
+    <path d="M54,18 C50,8 28,6 20,20 C14,30 22,42 36,47 C48,52 58,64 52,76 C46,88 28,88 18,78" stroke="#d4841c" stroke-width="5" stroke-linecap="round"/>
+    <path d="M18,78 C22,84 36,82 46,70 C48,66 44,44 42,20 C52,48 57,68 60,82 C66,68 74,40 84,14" stroke="#d4841c" stroke-width="5" stroke-linecap="round"/>
+  </svg>
+
+  <div class="hero-inner">
+    <div class="eyebrow fi">Incorporated in India &nbsp;·&nbsp; Est. June 2025</div>
+    <h1 class="fi d1">Pure products.<br/><em>Honest values.</em><br/>Essential living.</h1>
+    <div class="tpill fi d2">✦&nbsp; Live Well. Simply.</div>
+    <p class="hero-desc fi d3">We bring clean, sustainable and transparently priced products to everyday life — from wholesome food and thoughtful pet nutrition to science-backed health supplements. No shortcuts. No hidden agendas. Just quality you can trust.</p>
+    <div class="fi d4">
+      <form class="waitlist" id="wlForm" action="https://formspree.io/f/https://formspree.io/f/xdapvgby" method="POST" onsubmit="submitWL(event)">
+        <input type="email" name="email" placeholder="Your email address" required autocomplete="email" />
+        <button type="submit">Join Launch List</button>
+      </form>
+      <div class="wl-success" id="wlOk">✦ &nbsp;You're on the list — we'll be in touch when we launch.</div>
+      <p class="wl-note">Be first to know when our products launch. No spam, ever.</p>
+    </div>
+  </div>
+  <div class="scroll-hint"><div class="sline"></div><span>Scroll</span></div>
+</section>
+
+<section id="about">
+  <div class="ag">
+    <div>
+      <div class="s-eye fi">Who We Are</div>
+      <h2 class="fi d1">Built on <em>transparency</em> and care.</h2>
+      <p class="bp fi d2">Suchiy Vitals Private Limited was founded with a clear purpose — to deliver products people can genuinely trust. In a marketplace full of noise and half-truths, we believe consumers deserve to know exactly what they are buying and why it is good for them.</p>
+      <p class="bp fi d2">We operate across food, pet nutrition, health supplements and broader consumer goods, serving both individual customers (B2C) and business partners (B2B). Whether you are feeding your family, caring for your pet, or sourcing quality inventory — we hold the same standard for every product that carries our name.</p>
+      <div class="ldiv fi d3">
+        <svg width="28" height="34" viewBox="0 0 90 110" fill="none" opacity=".22" aria-hidden="true">
+          <path d="M54,18 C50,8 28,6 20,20 C14,30 22,42 36,47 C48,52 58,64 52,76 C46,88 28,88 18,78" stroke="#1c2e1a" stroke-width="6" stroke-linecap="round"/>
+          <path d="M18,78 C22,84 36,82 46,70 C48,66 44,44 42,20 C52,48 57,68 60,82 C66,68 74,40 84,14" stroke="#1c2e1a" stroke-width="6" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+    <div class="vals">
+      <div class="vi fi d1"><div class="vi-ico">🌿</div><div class="vi-txt"><h4>Clean Ingredients</h4><p>Every product is formulated with safe, traceable and purposeful ingredients. We reject unnecessary additives and hidden fillers.</p></div></div>
+      <div class="vi fi d2"><div class="vi-ico">⚖️</div><div class="vi-txt"><h4>Priced With Integrity</h4><p>Every price reflects real quality and honest margins — no hidden markups, no inflated premiums. Exceptional products should be accessible to everyone.</p></div></div>
+      <div class="vi fi d3"><div class="vi-ico">♻️</div><div class="vi-txt"><h4>Sustainable Approach</h4><p>We source responsibly and design our business with long-term sustainability in mind — for people, animals and the planet.</p></div></div>
+      <div class="vi fi d4"><div class="vi-ico">🤝</div><div class="vi-txt"><h4>Transparent Partnerships</h4><p>We build relationships on honesty. Our B2B partners receive the same quality commitment as our direct customers.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="products">
+  <div class="ph">
+    <div class="s-eye center fi">What We're Building</div>
+    <h2 class="fi d1">Products in <em>development</em></h2>
+    <p class="fi d2">Four categories under active development — each formulated around our clean-label, honest-ingredient promise. Launching soon.</p>
+  </div>
+  <div class="pg">
+
+    <!-- Food Products -->
+    <div class="pc fi">
+      <div class="pt" style="background:#2a1e0e">
+        <div class="pt-overlay" style="background:rgba(184,112,26,.85)"><span>Coming Soon</span></div>
+        <svg width="80" height="90" viewBox="0 0 80 90" fill="none">
+          <path d="M40 82 C40 82 14 62 16 38 C18 18 32 14 40 22 C48 14 62 18 64 38 C66 62 40 82 40 82Z" fill="#b8701a" opacity=".25"/>
+          <path d="M40 78 C40 78 18 60 20 38 C22 20 34 17 40 24 C46 17 58 20 60 38 C62 60 40 78 40 78Z" fill="none" stroke="#b8701a" stroke-width="1" opacity=".5"/>
+          <path d="M28 45 Q34 38 40 44 Q46 38 52 45" fill="none" stroke="#b8701a" stroke-width="1.2" opacity=".6" stroke-linecap="round"/>
+          <path d="M32 55 Q36 48 40 54 Q44 48 48 55" fill="none" stroke="#b8701a" stroke-width="1" opacity=".4" stroke-linecap="round"/>
+          <line x1="40" y1="24" x2="40" y2="75" stroke="#b8701a" stroke-width=".8" opacity=".3"/>
+          <circle cx="40" cy="20" r="4" fill="#b8701a" opacity=".4"/>
+          <ellipse cx="24" cy="40" rx="6" ry="9" stroke="#e8c87a" stroke-width=".8" fill="none" opacity=".3" transform="rotate(-20 24 40)"/>
+          <ellipse cx="56" cy="40" rx="6" ry="9" stroke="#e8c87a" stroke-width=".8" fill="none" opacity=".3" transform="rotate(20 56 40)"/>
+        </svg>
+      </div>
+      <div class="pb">
+        <div class="cs-badge"><span class="cs-dot"></span>In Development</div>
+        <h3>Food Products</h3>
+        <p>Wholesome, clean-label food crafted with quality ingredients. Nutritious, honest and made for real families.</p>
+        <span class="ptag amber">Clean Label</span>
+      </div>
+    </div>
+
+    <!-- Pet Nutrition -->
+    <div class="pc fi d1">
+      <div class="pt" style="background:#0e2214">
+        <div class="pt-overlay" style="background:rgba(46,102,64,.85)"><span>Coming Soon</span></div>
+        <svg width="80" height="90" viewBox="0 0 80 90" fill="none">
+          <ellipse cx="40" cy="52" rx="22" ry="18" fill="none" stroke="#2e6640" stroke-width="1" opacity=".4"/>
+          <path d="M22 52 Q24 34 40 30 Q56 34 58 52" fill="none" stroke="#2e6640" stroke-width="1.2" opacity=".5" stroke-linecap="round"/>
+          <circle cx="28" cy="28" r="7" fill="none" stroke="#4a9660" stroke-width="1" opacity=".5"/>
+          <circle cx="52" cy="28" r="7" fill="none" stroke="#4a9660" stroke-width="1" opacity=".5"/>
+          <circle cx="20" cy="42" r="5" fill="none" stroke="#4a9660" stroke-width="1" opacity=".4"/>
+          <circle cx="60" cy="42" r="5" fill="none" stroke="#4a9660" stroke-width="1" opacity=".4"/>
+          <ellipse cx="40" cy="54" rx="14" ry="10" fill="#2e6640" opacity=".15"/>
+          <path d="M34 58 Q37 62 40 60 Q43 62 46 58" fill="none" stroke="#4a9660" stroke-width="1" opacity=".5" stroke-linecap="round"/>
+          <circle cx="36" cy="52" r="1.5" fill="#4a9660" opacity=".6"/>
+          <circle cx="44" cy="52" r="1.5" fill="#4a9660" opacity=".6"/>
+        </svg>
+      </div>
+      <div class="pb">
+        <div class="cs-badge"><span class="cs-dot"></span>In Development</div>
+        <h3>Pet Nutrition</h3>
+        <p>Thoughtfully formulated pet food prioritising your animal's health — balanced nutrition without fillers or compromise.</p>
+        <span class="ptag green">Science-Backed</span>
+      </div>
+    </div>
+
+    <!-- Health Supplements -->
+    <div class="pc fi d2">
+      <div class="pt" style="background:#0e2022">
+        <div class="pt-overlay" style="background:rgba(26,96,96,.85)"><span>Coming Soon</span></div>
+        <svg width="80" height="90" viewBox="0 0 80 90" fill="none">
+          <rect x="28" y="18" width="24" height="54" rx="12" fill="none" stroke="#1a6060" stroke-width="1" opacity=".4"/>
+          <rect x="30" y="18" width="20" height="27" rx="10" fill="#1a6060" opacity=".2"/>
+          <line x1="28" y1="45" x2="52" y2="45" stroke="#1a6060" stroke-width="1" opacity=".5"/>
+          <circle cx="36" cy="32" r="2" fill="#2a9090" opacity=".5"/>
+          <circle cx="44" cy="32" r="2" fill="#2a9090" opacity=".5"/>
+          <circle cx="40" cy="38" r="2" fill="#2a9090" opacity=".5"/>
+          <circle cx="36" cy="58" r="1.5" fill="#1a6060" opacity=".4"/>
+          <circle cx="44" cy="58" r="1.5" fill="#1a6060" opacity=".4"/>
+          <circle cx="40" cy="64" r="1.5" fill="#1a6060" opacity=".4"/>
+          <path d="M20 44 Q14 44 14 52 Q14 60 22 60" fill="none" stroke="#2a9090" stroke-width=".8" opacity=".3" stroke-dasharray="3 2"/>
+          <path d="M60 44 Q66 44 66 52 Q66 60 58 60" fill="none" stroke="#2a9090" stroke-width=".8" opacity=".3" stroke-dasharray="3 2"/>
+        </svg>
+      </div>
+      <div class="pb">
+        <div class="cs-badge"><span class="cs-dot"></span>In Development</div>
+        <h3>Health Supplements</h3>
+        <p>Science-backed supplements to support everyday wellness. Transparently formulated, fairly priced and genuinely effective.</p>
+        <span class="ptag teal">Wellness Focus</span>
+      </div>
+    </div>
+
+    <!-- Consumer Products -->
+    <div class="pc fi d3">
+      <div class="pt" style="background:#141820">
+        <div class="pt-overlay" style="background:rgba(68,80,96,.85)"><span>Coming Soon</span></div>
+        <svg width="80" height="90" viewBox="0 0 80 90" fill="none">
+          <rect x="20" y="36" width="40" height="36" rx="4" fill="none" stroke="#445060" stroke-width="1" opacity=".4"/>
+          <path d="M28 36 L28 28 Q28 20 40 20 Q52 20 52 28 L52 36" fill="none" stroke="#445060" stroke-width="1.2" opacity=".5" stroke-linecap="round"/>
+          <rect x="34" y="48" width="12" height="12" rx="2" fill="#445060" opacity=".2" stroke="#6070a0" stroke-width=".8"/>
+          <line x1="40" y1="48" x2="40" y2="60" stroke="#6070a0" stroke-width=".8" opacity=".4"/>
+          <line x1="34" y1="54" x2="46" y2="54" stroke="#6070a0" stroke-width=".8" opacity=".4"/>
+          <circle cx="28" cy="40" r="2" fill="#8090a0" opacity=".4"/>
+          <line x1="20" y1="44" x2="60" y2="44" stroke="#445060" stroke-width=".8" opacity=".25"/>
+        </svg>
+      </div>
+      <div class="pb">
+        <div class="cs-badge"><span class="cs-dot"></span>In Development</div>
+        <h3>Consumer Products</h3>
+        <p>A curated range of everyday consumer goods meeting our standard for quality, sustainability and honest value.</p>
+        <span class="ptag slate">Expanding Range</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="commitment">
+  <div class="cr cr1"></div><div class="cr cr2"></div>
+  <div class="cin">
+    <div class="ch">
+      <div class="s-eye center fi" style="color:var(--saffron)">Our Promise</div>
+      <h2 class="h2l fi d1">Every decision guided by<br/><em>principle, not profit alone.</em></h2>
+      <div class="srule fi d2"></div>
+    </div>
+    <div class="cgrid">
+      <div class="ci fi"><div class="cin2">01</div><h4>Pure Formulations</h4><p>We never compromise on ingredient quality. What you read on the label is exactly what is inside.</p></div>
+      <div class="ci fi d1"><div class="cin2">02</div><h4>Honest Communication</h4><p>No marketing exaggeration. We describe our products truthfully and set realistic expectations.</p></div>
+      <div class="ci fi d2"><div class="cin2">03</div><h4>Reasonable Margins</h4><p>Good products should be affordable. Our pricing reflects fair value — not inflated brand premiums.</p></div>
+      <div class="ci fi d3"><div class="cin2">04</div><h4>Sustainable Sourcing</h4><p>Responsible sourcing considering environmental and social impact at every stage of our supply chain.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="serve">
+  <div class="sg">
+    <div>
+      <div class="s-eye fi">Who We Serve</div>
+      <h2 class="fi d1">From households<br/>to <em>businesses.</em></h2>
+      <p class="bp fi d2">Suchiy Vitals serves a wide range of customers — individual consumers looking for products they can trust, and business partners seeking a reliable, transparent supplier to grow with.</p>
+      <p class="bp fi d2">Whether you are a family, a retailer, a distributor or a corporate buyer, we maintain the same commitment to quality and integrity across every engagement.</p>
+    </div>
+    <div class="scl">
+      <div class="sc fi"><span class="sc-ico">👨‍👩‍👧</span><div><h4>Individual Consumers (B2C)</h4><p>Quality products delivered directly to families and individuals who care about what they consume.</p></div></div>
+      <div class="sc fi d1"><span class="sc-ico">🏪</span><div><h4>Retailers &amp; Distributors (B2B)</h4><p>Partnering with retailers and distributors who value stocking honest, clean-label products.</p></div></div>
+      <div class="sc fi d2"><span class="sc-ico">🏢</span><div><h4>Corporate &amp; Institutional Buyers</h4><p>Bulk supply for offices, healthcare facilities and institutions seeking consistent quality at scale.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="s-eye center fi">Get In Touch</div>
+  <h2 class="fi d1">We'd love to<br/><em>hear from you.</em></h2>
+  <p class="bp fi d2">Whether you are a consumer with a question, a business exploring partnership, or simply want to learn more — reach out and we will respond promptly.</p>
+  <div class="fi d3">
+    <div class="cbox">
+      <span class="clbl">Email Us</span>
+      <a class="ceml" id="em" href="#">—</a>
+      <svg width="34" height="40" viewBox="0 0 90 110" fill="none" opacity=".1" aria-hidden="true">
+        <path d="M54,18 C50,8 28,6 20,20 C14,30 22,42 36,47 C48,52 58,64 52,76 C46,88 28,88 18,78" stroke="#1c2e1a" stroke-width="6" stroke-linecap="round"/>
+        <path d="M18,78 C22,84 36,82 46,70 C48,66 44,44 42,20 C52,48 57,68 60,82 C66,68 74,40 84,14" stroke="#d4841c" stroke-width="6" stroke-linecap="round"/>
+      </svg>
+      <span class="clbl" style="font-size:.58rem;margin-top:-10px">suchiyvitals.com</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="fbw">
+    <svg width="30" height="36" viewBox="0 0 90 110" fill="none" opacity=".7" aria-hidden="true">
+      <path d="M54,18 C50,8 28,6 20,20 C14,30 22,42 36,47 C48,52 58,64 52,76 C46,88 28,88 18,78" stroke="#e8a84a" stroke-width="5.5" stroke-linecap="round"/>
+      <path d="M18,78 C22,84 36,82 46,70 C48,66 44,44 42,20 C52,48 57,68 60,82 C66,68 74,40 84,14" stroke="#d4841c" stroke-width="5.5" stroke-linecap="round"/>
+    </svg>
+    <span class="fb">Suchiy Vitals Private Limited</span>
+  </div>
+  <div class="fl">© 2025 Suchiy Vitals Private Limited. All rights reserved.<br/>suchiyvitals.com &nbsp;·&nbsp; Ahmedabad, Gujarat, India</div>
+</footer>
+
+<script>
+(function(){var u='contactus',d='suchiyvitals.com',a=u+'\u0040'+d,el=document.getElementById('em');el.href='mai'+'lto:'+a;el.textContent=a;})();
+var ham=document.getElementById('ham'),mob=document.getElementById('mob');
+ham.addEventListener('click',function(){ham.classList.toggle('open');mob.classList.toggle('open');});
+function cm(){ham.classList.remove('open');mob.classList.remove('open');}
+function submitWL(e){
+  e.preventDefault();
+  var form=document.getElementById('wlForm');
+  var data=new FormData(form);
+  fetch(form.action,{method:'POST',body:data,headers:{'Accept':'application/json'}})
+    .then(function(r){
+      document.getElementById('wlForm').style.display='none';
+      document.querySelector('.wl-note').style.display='none';
+      document.getElementById('wlOk').style.display='block';
+    })
+    .catch(function(){
+      document.getElementById('wlOk').textContent='✦  Thank you — we have noted your interest.';
+      document.getElementById('wlForm').style.display='none';
+      document.getElementById('wlOk').style.display='block';
+    });
+}
+var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('v');obs.unobserve(x.target);}});},{threshold:.1});
+document.querySelectorAll('.fi').forEach(function(el){obs.observe(el);});
+document.querySelectorAll('#home .fi').forEach(function(el,i){setTimeout(function(){el.classList.add('v');},80+i*150);});
+</script>
+</body>
+</html>
